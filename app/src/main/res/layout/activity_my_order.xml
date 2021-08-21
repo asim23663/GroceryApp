@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myOrders.MyOrderActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:title="@string/my_order"
+        android:id="@+id/toolbar_my_order"
+        app:navigationIcon="@drawable/ic_arrow_back"/>
+
+    <!--When there is no order place-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:id="@+id/linear_no_order"
+        android:padding="@dimen/_18sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lets_create"
+            android:gravity="center"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:text="@string/start_shopping"
+            android:onClick="startShopping"
+            android:textColor="@color/half_white"
+            android:textSize="@dimen/_12ssp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:id="@+id/linear_login"
+           android:layout_marginTop="@dimen/_12sdp">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="or"
+               android:gravity="center"
+               android:textSize="@dimen/_12ssp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/login"
+               android:onClick="doLogin"
+               android:layout_marginStart="@dimen/_3sdp"
+               android:layout_marginEnd="@dimen/_3sdp"
+               android:textColor="@color/colorPrimary"
+               android:textSize="@dimen/_16ssp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/to_see_order"/>
+       </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_my_order"/>
+
+</LinearLayout>

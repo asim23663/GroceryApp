@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <!--<item
+            android:id="@+id/drawer_category"
+
+            android:title="@string/categories" />-->
+        <item
+            android:id="@+id/drawer_my_cart"
+
+            android:title="@string/my_cart" />
+        <item
+            android:id="@+id/drawer_my_profile"
+
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/drawer_my_order"
+
+            android:title="@string/my_order" />
+        <item
+            android:id="@+id/drawer_wallet"
+
+            android:title="@string/wallet" />
+
+        <item
+
+
+            android:id="@+id/drawer_my_promotions"
+            android:title="@string/promotions" />
+        <item
+
+            android:id="@+id/drawer_share"
+
+            android:title="@string/share"
+            android:visible="false"/>
+        <item
+
+            android:id="@+id/drawer_faqs"
+
+            android:title="@string/faqs"
+            android:visible="false"/>
+        <item
+
+            android:id="@+id/drawer_whats_app"
+
+            android:title="@string/whats_app" />
+
+        <item
+
+            android:id="@+id/drawer_call_us"
+
+            android:title="@string/call_us" />
+
+        <item
+
+
+            android:id="@+id/drawer_sign_in"
+            android:title="@string/sign_in" />
+
+        <item
+
+            android:id="@+id/drawer_sign_out"
+            android:title="@string/log_out"
+            android:visible="false"/>
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="@string/menu_share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="@string/menu_send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

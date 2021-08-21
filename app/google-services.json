@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "917277086743",
+    "firebase_url": "https://grocerapp-ak-techzone.firebaseio.com",
+    "project_id": "grocerapp-ak-techzone",
+    "storage_bucket": "grocerapp-ak-techzone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917277086743:android:d7b3f780174e4f6d",
+        "android_client_info": {
+          "package_name": "com.example.gorocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917277086743-jvacai74d4v9nbjvajs4ab27qal5jblm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gorocery",
+            "certificate_hash": "d6d508894d960f1c1cd055fa1987cd1f94509665"
+          }
+        },
+        {
+          "client_id": "917277086743-jam3aquivpogs85jrrk1rjotadlrfu0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ0ITp6SWmno_v3DDg83QDMNJMfkB3jfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917277086743-jam3aquivpogs85jrrk1rjotadlrfu0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

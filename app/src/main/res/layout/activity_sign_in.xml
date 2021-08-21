@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignInActivity"
+    android:orientation="vertical"
+    >
+
+
+    <!--Before Sign in Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/_18sdp"
+        android:id="@+id/linear_sign_in_layout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/we_need_your"
+            android:gravity="center"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:text="@string/login_sign_up"
+            android:padding="@dimen/_18sdp"
+            android:textSize="@dimen/_12ssp"
+            android:onClick="doSignIn"
+            android:textColor="@color/half_white"
+            android:background="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/existing_user"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:textColor="@color/black"
+            android:onClick="cancelSignIn"
+            android:textSize="@dimen/_12ssp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

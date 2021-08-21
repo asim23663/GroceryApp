@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProfileActivity"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_weight="1"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:title="@string/my_profile"
+            android:id="@+id/toolbar_profile"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:id="@+id/tv_edit_profile"
+            android:text="@string/edit"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:textColor="@color/white"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:text="@string/update"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center"
+            android:id="@+id/tv_update_profile"
+            android:clickable="true"
+            android:visibility="gone"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:textColor="@color/white"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_18sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="@dimen/_14ssp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:id="@+id/et_profile_name"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:id="@+id/et_profile_email"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_number"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_number"
+                android:inputType="number"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:id="@+id/et_profile_mobile"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_birth"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_of_birth"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:focusable="false"
+                android:inputType="date"
+                android:id="@+id/et_profile_dob"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gender"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:focusable="false"
+                android:id="@+id/et_profile_gender"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/location_on_map"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/location"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:focusable="false"
+                android:id="@+id/et_profile_location"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_14ssp"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:layout_marginTop="@dimen/_minus5sdp"
+                android:textSize="@dimen/_14ssp"
+                android:enabled="false"
+                android:id="@+id/et_profile_address"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Grocery</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="categories">Categories</string>
+    <string name="my_cart">My Cart</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_order">My Orders</string>
+    <string name="promotions">Promotions</string>
+    <string name="share">Share</string>
+    <string name="faqs">FAQs</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="call_us" translatable="false">Call Us</string>
+    <string name="sign_in">Sign in</string>
+    <string name="shopping_cart">Shopping cart</string>
+    <string name="empty_cart">Your cart is empty</string>
+    <string name="lets_fill_it">Let\'sfill it up by adding some items!</string>
+    <string name="start_shopping">Start Shopping</string>
+    <string name="add_to_cart" translatable="false">Add to Cart</string>
+    <string name="sub_total">Sub Total</string>
+    <string name="delivery_charges">Delivery Charges</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="checkout">CHECKOUT</string>
+    <string name="we_need_your">Hi, we need your phone number to verify your identity</string>
+    <string name="login_sign_up">Login/Sign up</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="existing_user">*Existing users will log in right after verifying the SMS confirmation code</string>
+    <string name="lets_create">Let\'s create your first order!</string>
+    <string name="login">Login</string>
+    <string name="to_see_order">to see order history</string>
+    <string name="apply_code_and_get" translatable="false">Apply code and get 10% order amount back in wallet</string>
+    <string name="expires_in">Expires in 3 Days</string>
+    <string name="apply" translatable="false">Apply</string>
+    <string name="hot_promotions">Hot Promotions</string>
+    <string name="enter_your_mobile">Enter your mobile number</string>
+    <string name="log_out">Log Out</string>
+    <string name="email">Email</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="location">Location</string>
+    <string name="sign_up">SignUp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="location_on_map">Location on Map</string>
+    <string name="already_have" translatable="false">Already have an Account?</string>
+    <string name="dont_have_an">Don\'t have an Account?</string>
+    <string name="wallet">Wallet</string>
+    <string name="edit">EDIT</string>
+    <string name="update">Update</string>
+    <string name="set_delivery_location">Set Delivery Location</string>
+    <string name="proceed">Proceed</string>
+    <string name="available_balance" translatable="false">Available Balance</string>
+    <string name="pkr">PKR</string>
+    <string name="current_payment_method">Current Payment Method</string>
+    <string name="cash_on_delivery">Cash on Delivery</string>
+    <string name="add_credit_card" translatable="false">Add credit card</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="place_order">PLACE ORDER</string>
+    <string name="your_delivery">Your Delivery Address</string>
+    <string name="retry">Retry</string>
+    <string name="instructions">Instructions</string>
+    <string name="tap_to">*Tap on Map to choose location</string>
+    <string name="thanks_for_your">Thank you for your order</string>
+    <string name="read_your_details">Read your details below</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="estimated_time">Estimated Delivery Time</string>
+    <string name="done">Done</string>
+    <string name="whats_app">WhatsApp</string>
+    <string name="order_date">Order Date:</string>
+    <string name="order_id">Order Id:</string>
+    <string name="order_status">Order Status:</string>
+    <string name="total_price">Total Price:</string>
+    <string name="search_location">*Search Location by tap on search view</string>
+</resources>

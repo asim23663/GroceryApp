@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    android:background="@android:drawable/dialog_holo_light_frame"
+   >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:id="@+id/frame_products"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:focusable="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_weight="2.5"
+                android:padding="@dimen/_8sdp"
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/img_sub_grocery"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_weight="7.5"
+                android:orientation="vertical"
+                android:padding="@dimen/_8sdp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom|start"
+                    android:text="Tomato"
+                    android:id="@+id/tv_sub_grocery_title"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_16ssp"/>
+                <!--<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1 Kg"
+                    android:id="@+id/tv_sub_grocery_weight"
+                    android:textSize="@dimen/_12ssp"/>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/_16ssp"
+                        android:textStyle="bold"
+                        android:id="@+id/tv_sub_grocery_price"
+                        android:textColor="@color/black"
+                        android:gravity="center|start"
+                        android:text="Rs 0"/>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_line"
+                        android:orientation="horizontal"
+
+                        android:visibility="gone"
+                        android:id="@+id/linear_layout"
+                        android:padding="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:id="@+id/img_delete"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:src="@drawable/ic_delete"
+                            android:focusable="true" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:id="@+id/img_minus_qty"
+                            android:visibility="gone"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:src="@drawable/ic_remove_circle_outline"
+                            android:focusable="true" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="1"
+                            android:id="@+id/tv_qty"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:textSize="@dimen/_14ssp"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:id="@+id/img_add_qty"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:src="@drawable/ic_add_circle_outline"
+                            android:focusable="true" />
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".3"
+                        android:visibility="gone"
+                        android:textSize="@dimen/_12ssp"
+                        android:text="@string/add_to_cart"
+                        android:id="@+id/btn_add_to_cart"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+
+
+</LinearLayout>
